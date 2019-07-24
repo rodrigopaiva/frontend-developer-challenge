@@ -21,6 +21,46 @@ textarea
 	overflow auto
 
 
+/* ======== NEWSLETTER ======== */
+.form-news
+	margin-top 164px
+	margin-bottom 142px
+	width 56%
+
+	fieldset
+		legend
+			text-align center
+			font_mixin($FontPrimary, 18px, $gray2)
+			font-weight bold
+
+		& > p
+			text-align center
+			font_mixin($FontPrimary, 14px, $gray2)
+			margin-top 44px
+			margin-bottom 40px
+
+		label
+			width 340px
+			font_mixin($FontPrimary, 12px, $gray2)
+			line-height 20px
+
+			span
+				display block
+
+		input[type=text],
+		input[type=email]
+			width 340px
+			&:focus
+				outline none
+
+		button
+			width 260px
+			margin-top 50px
+
+		figure
+			text-align center
+
+
 /* ======== ALERTAS ======== */
 .alert
 	padding 14px
