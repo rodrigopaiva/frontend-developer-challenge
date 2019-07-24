@@ -1,6 +1,10 @@
 
 <footer class="ft-primary relative">
-    <!-- conteudo -->
+    <p>
+    	Testando suas habilidades em HTML, CSS e JS.<br />
+    	Linx Impulse<br />
+    	2019
+    </p>
 </footer><!-- ft-primary -->
 
 
