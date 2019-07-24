@@ -1,0 +1,36 @@
+.hd-primary
+	background-color $gray
+	margin-bottom 48px
+
+	h1
+		text-align center
+		font_mixin($FontPrimary, 20px, $white)
+		line-height 34px
+		padding-top 69px
+
+		em
+			font-size 40px
+			font-weight bold
+
+	p
+		text-align center
+		font_mixin($FontPrimary, 14px, $white)
+		margin 24px 0 50px 0
+
+	ul
+		display flex
+		flex-wrap wrap
+		width 60%
+		@extend .center
+		margin-bottom 61px
+
+		li
+			width calc(100% / 4)
+			display flex
+			position relative
+			text-align center
+			margin-bottom 5em
+
+			a
+				width 160px
+				@extend .center
