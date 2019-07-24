@@ -1,0 +1,41 @@
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=search],
+input[type=number],
+input[type=file],
+input[type=tel],
+select, textarea
+	height 30px
+	line-height 16px
+	padding 13px 14px
+	border 1px solid $gray
+	background $white
+	&:focus
+		outline none
+	&.error
+		border 1px solid red
+
+textarea
+	resize none
+	overflow auto
+
+
+/* ======== ALERTAS ======== */
+.alert
+	padding 14px
+	border-radius 3px
+	font_mixin($FontPrimary, 12px, $white)
+	text-align center
+	margin-top 15px
+
+.alert-danger
+	@extend .alert
+	background #ffeded
+	color #c53b3b
+
+.message-fail
+	background #ce6565
+
+.message-success
+	background #41b88f

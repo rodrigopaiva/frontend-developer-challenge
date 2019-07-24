@@ -1,0 +1,23 @@
+###########################################################
+#                    Our Team
+############################################################
+
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Frontend: Rodrigo Felipe
+	Contact:  rodrigofpaiva [at] gmail.com
+	LinkedIn: http://br.linkedin.com/in/rodrigofelipe
+	Location: Recife, Pernambuco, Brazil
+
+# THANKS
+
+    Linx Recruiterbox
+
+# ABOUT PROJECT
+
+  Language:	  Brazilian Portuguese
+  Technology: HTML5, CSS3, Modernizr, jQuery, PHP, Stylus, GruntJs, NodeJs
+  IDE: 		  Sublime Text
