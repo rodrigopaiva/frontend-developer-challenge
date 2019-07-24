@@ -20,7 +20,16 @@
             <?php include "header.php" ?>
 
             <section>
-                <!-- conteudo -->
+                <header>
+                    <h2>Sua seleção especial</h2>
+                </header>
+
+
+                <article>
+                    <!-- listagem produtos aqui -->
+
+                    <?php include "_inc/form-newsletter.php"; ?>
+                </article>
             </section>
 
 
