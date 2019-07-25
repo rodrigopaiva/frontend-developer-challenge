@@ -27,30 +27,33 @@
 
                 <article>
                     <ul class="list-products">
-                        <!-- <li>
-                            <figure>
-                                <img src="" alt="" />
-                            </figure>
+                        <?php
+                            /*
+                                <li>
+                                    <figure>
+                                        <img src="" alt="" />
+                                    </figure>
 
-                            <h3>Nome do produto</h3>
+                                    <h3>Nome do produto</h3>
 
-                            <p>Descrição do produto um pouco maior, com duas linhas ou três que explica melhor do que se trata.</p>
+                                    <p>Descrição do produto um pouco maior, com duas linhas ou três que explica melhor do que se trata.</p>
 
-                            <div class="old-price">
-                                De: <span>R$ 23,99</span>
-                            </div>
+                                    <div class="old-price">
+                                        De: <span>R$ 23,99</span>
+                                    </div>
 
-                            <div class="price">
-                                Por: <span>R$ 19,00</span>
-                            </div>
+                                    <div class="price">
+                                        Por: <span>R$ 19,00</span>
+                                    </div>
 
-                            <div class="price-divided">
-                                ou 2x de R$ 9,99
-                            </div>
+                                    <div class="price-divided">
+                                        ou 2x de R$ 9,99
+                                    </div>
 
-                            <a href="" class="btn btn-empty">Comprar</a>
-                        </li>
-                        -->
+                                    <a href="" class="btn btn-empty">Comprar</a>
+                                </li>
+                            */
+                        ?>
                     </ul>
 
                     <figure class="loading-aux none">
