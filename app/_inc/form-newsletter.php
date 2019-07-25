@@ -22,7 +22,7 @@
 
     <fieldset>
         <figure>
-            <img src="images/loading.gif" width="32" height="32" class="loading center none" />
+            <img src="images/loading.gif" width="32" height="32" class="loading center none" alt="" />
         </figure>
 
         <div class="news-box-error alert message-fail none">

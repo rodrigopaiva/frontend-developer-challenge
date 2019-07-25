@@ -1,7 +1,6 @@
 
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta http-equiv="content-language" content="pt-br" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
         <meta http-equiv="cache-control" content="no-cache" />
 
         <title>Teste Linx</title>
