@@ -20,7 +20,7 @@
             <?php include "header.php" ?>
 
             <section>
-                <header>
+                <header class="hdr-products">
                     <h2>Sua seleção especial</h2>
                 </header>
 

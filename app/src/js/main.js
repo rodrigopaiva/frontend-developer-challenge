@@ -4,6 +4,7 @@
     - link externo
     - quando enviar o form de newsletter executa a funcao
     - load more products on click button
+    - scroll to
     - load products on load page
     - requisita o JSON e carrega a lista de produtos
     - formartar numero
@@ -13,11 +14,11 @@
 $(document).ready(function() {
 
     // link externo
-    $('.external').on('click',function (e){
-        e.preventDefault();
-        var url = $(this).attr('href');
-        window.open(url);
-    });
+        $('.external').on('click',function (e){
+            e.preventDefault();
+            var url = $(this).attr('href');
+            window.open(url);
+        });
 
 
 
@@ -109,6 +110,19 @@ $(document).ready(function() {
                 $('.loading-aux').fadeOut();
                 loadProducts();
             }, 1000);
+        });
+
+
+
+    // scroll to
+        $('.go-to-products').on('click',function (e){
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: $('.hdr-products').offset().top }, 1000);
+        });
+
+        $('.go-to-share').on('click',function (e){
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: $('.form-news').offset().top }, 1000);
         });
 }); // end ready
 
