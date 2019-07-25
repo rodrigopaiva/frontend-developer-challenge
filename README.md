@@ -16,4 +16,6 @@ Live Preview: Heroku
 
 Link app Heroku: https://teste-linx.herokuapp.com/
 
-Obs.: Realizei o deploy do Heroku com sucesso ("Your app was successfully deployed."), mas quando acesso o link não carrega.
+Obs.: Realizei o deploy do Heroku com sucesso ("Your app was successfully deployed."), mas quando acesso o link não carrega. Por isso fiz o upload para o meu server abaixo.
+
+Link: http://rodrigofelipe.com.br/testes/linx/
